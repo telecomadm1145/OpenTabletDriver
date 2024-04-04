@@ -36,7 +36,7 @@ Die Voraussetzungen für OpenTabletDriver sind auf allen Plattformen gleich, die
 
 ### Alle Plattformen
 
-- .NET 6 SDK (kann [hier](https://dotnet.microsoft.com/download/dotnet/6.0) heruntergeladen werden - Die SDK für die jeweilige Plattform wird benötigt, Linux-Nutzer sollten die SDK nach Möglichkeit mithilfe eines Package-Managers installieren)
+- .NET 7 SDK (kann [hier](https://dotnet.microsoft.com/download/dotnet/7.0) heruntergeladen werden - Die SDK für die jeweilige Plattform wird benötigt, Linux-Nutzer sollten die SDK nach Möglichkeit mithilfe eines Package-Managers installieren)
 
 #### Windows
 
@@ -96,9 +96,6 @@ Keine weiteren Abhängigkeiten.
   - Belegung mit pluginabhängigen Einstellungen
 - Speichern und Laden von Einstellungen
   - Autoladen von Benutzereinstellungen aus `settings.json` in den momentan aktiven Benutzer `%localappdata%` oder `.config` in das Root-Verzeichnis.
-- Konfigurationseditor
-  - Erlaubt es, Konfigurationsdateien zu erstellen, ändern und löschen.
-  - Generiert Konfigurationen für sichtbare HID-Geräte.
 - Plugins
   - Filter
   - Ausgabemodi
